@@ -9,7 +9,7 @@ async function getQuote() {
         btnEl.innerText = "Loading..."
         btnEl.disable = true; 
 
-        const rsp = await axios.get((`http://api.quotable.io/random`)); 
+        const rsp = await axios.get((`https://api.quotable.io/random`)); 
 
         quoteEl.innerText = rsp.data.content;
     
