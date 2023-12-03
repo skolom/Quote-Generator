@@ -5,7 +5,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(to left bottom, lightgreen, lightblue);
+    background: linear-gradient(to left bottom, #ed822ae7, #d45058f4);
 }
 
 .container{
@@ -51,6 +51,6 @@ body{
     background-color: rgba(255, 255, 255, .6);
     box-shadow: 0 4px 4px rgba(0, 0, 0, .1);
     transition: all 500ms ease-in-out;
-    color: green;
+    color: #81390ff5;
 
 }
